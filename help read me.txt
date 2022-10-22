@@ -1,0 +1,6 @@
+all you need to do is enter a frequency 
+ex: 462 = 462.000mhz 
+dont enter any decimal it wont work( dont know why)
+also frist pyhton code i made by my self.
+
+quad
