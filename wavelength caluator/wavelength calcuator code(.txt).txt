@@ -1,0 +1,55 @@
+# in inches 1/4, 1/2 and full wave leath.
+#10/21/22 Quad
+
+ 
+from cgitb import reset
+from pdb import Restart
+
+
+print("1/4 wave leath (inches)")
+
+x = 234
+y = int(input("enter a frequency (1/4), "))
+sum = x / y 
+
+frequency = sum * 12 
+
+print(frequency)
+print('')
+
+
+# haft wave
+print("haft wave (inches)")
+
+a = 468
+b = y
+sum1 = a / b 
+
+frequency1 = sum1 * 12
+print(frequency1)
+print('')
+
+
+# full wave
+print("full wave leath (inches) ")
+
+d = 1005
+g = y
+sum2 = d / g 
+
+frequency2 = sum2 * 12
+print (frequency2) 
+print('')
+
+while True:
+    # main program
+    while True:
+        answer = str(input('leave (y/n): '))
+        if answer in ('y', 'n'):
+            break
+        print("invalid input.")
+    if answer == 'n':
+        reset
+    else:
+        print("Goodbye")
+        break
